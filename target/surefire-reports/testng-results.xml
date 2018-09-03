@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="56917" started-at="2018-09-03T17:09:35Z" finished-at="2018-09-03T17:10:32Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="56917" started-at="2018-09-03T17:09:35Z" finished-at="2018-09-03T17:10:32Z">
+      <class name="tests.PilivoTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:tests.PilivoTest@6caf0677]" name="beforeSuite" is-config="true" duration-ms="105" started-at="2018-09-03T17:09:35Z" finished-at="2018-09-03T17:09:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.PilivoTest@6caf0677]" name="setUp" is-config="true" duration-ms="0" started-at="2018-09-03T17:09:35Z" finished-at="2018-09-03T17:09:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.PilivoTest@6caf0677]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2018-09-03T17:09:35Z" finished-at="2018-09-03T17:09:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.PilivoTest.startPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="startPage()[pri:1, instance:tests.PilivoTest@6caf0677]" name="startPage" duration-ms="6332" started-at="2018-09-03T17:09:35Z" description="Open Webpage" finished-at="2018-09-03T17:09:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startPage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.PilivoTest@6caf0677]" name="tearDown" is-config="true" duration-ms="178" started-at="2018-09-03T17:09:42Z" finished-at="2018-09-03T17:09:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=startPage status=SUCCESS method=PilivoTest.startPage()[pri:1, instance:tests.PilivoTest@6caf0677] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.PilivoTest.startPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.PilivoTest@6caf0677]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-09-03T17:09:42Z" finished-at="2018-09-03T17:09:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.PilivoTest.clickOnCreateAppMenu()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="clickOnCreateAppMenu()[pri:2, instance:tests.PilivoTest@6caf0677]" name="clickOnCreateAppMenu" duration-ms="10709" started-at="2018-09-03T17:09:42Z" description="Click on Create App" depends-on-methods="tests.PilivoTest.startPage" finished-at="2018-09-03T17:09:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnCreateAppMenu -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.PilivoTest@6caf0677]" name="tearDown" is-config="true" duration-ms="27" started-at="2018-09-03T17:09:52Z" finished-at="2018-09-03T17:09:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnCreateAppMenu status=SUCCESS method=PilivoTest.clickOnCreateAppMenu()[pri:2, instance:tests.PilivoTest@6caf0677] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.PilivoTest.clickOnCreateAppMenu()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="clickOnGetStarted()[pri:3, instance:tests.PilivoTest@6caf0677]" name="clickOnGetStarted" duration-ms="92" started-at="2018-09-03T17:09:52Z" description="click on Lets Get started" depends-on-methods="tests.PilivoTest.clickOnCreateAppMenu" finished-at="2018-09-03T17:09:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnGetStarted -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.PilivoTest@6caf0677]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-09-03T17:09:52Z" finished-at="2018-09-03T17:09:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.PilivoTest.clickOnGetStarted()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.PilivoTest@6caf0677]" name="tearDown" is-config="true" duration-ms="25" started-at="2018-09-03T17:09:53Z" finished-at="2018-09-03T17:09:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnGetStarted status=SUCCESS method=PilivoTest.clickOnGetStarted()[pri:3, instance:tests.PilivoTest@6caf0677] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.PilivoTest.clickOnGetStarted()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="createNewPage()[pri:4, instance:tests.PilivoTest@6caf0677]" name="createNewPage" duration-ms="383" started-at="2018-09-03T17:09:53Z" description="Creating new Page" finished-at="2018-09-03T17:09:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewPage -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.PilivoTest@6caf0677]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-09-03T17:09:53Z" finished-at="2018-09-03T17:09:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.PilivoTest.createNewPage() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.PilivoTest@6caf0677]" name="tearDown" is-config="true" duration-ms="23" started-at="2018-09-03T17:09:53Z" finished-at="2018-09-03T17:09:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createNewPage status=SUCCESS method=PilivoTest.createNewPage()[pri:4, instance:tests.PilivoTest@6caf0677] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.PilivoTest.createNewPage() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.PilivoTest@6caf0677]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-09-03T17:09:53Z" finished-at="2018-09-03T17:09:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.PilivoTest.clickOnMessaging()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="clickOnMessaging()[pri:5, instance:tests.PilivoTest@6caf0677]" name="clickOnMessaging" duration-ms="1804" started-at="2018-09-03T17:09:53Z" description="Click On messaging button" finished-at="2018-09-03T17:09:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnMessaging -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.PilivoTest@6caf0677]" name="tearDown" is-config="true" duration-ms="21" started-at="2018-09-03T17:09:55Z" finished-at="2018-09-03T17:09:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnMessaging status=SUCCESS method=PilivoTest.clickOnMessaging()[pri:5, instance:tests.PilivoTest@6caf0677] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.PilivoTest.clickOnMessaging()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.PilivoTest@6caf0677]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-09-03T17:09:55Z" finished-at="2018-09-03T17:09:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.PilivoTest.checkTabCreated()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="checkTabCreated()[pri:6, instance:tests.PilivoTest@6caf0677]" name="checkTabCreated" duration-ms="20" started-at="2018-09-03T17:09:55Z" description="check whether created page is present" finished-at="2018-09-03T17:09:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTabCreated -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.PilivoTest@6caf0677]" name="tearDown" is-config="true" duration-ms="24" started-at="2018-09-03T17:09:55Z" finished-at="2018-09-03T17:09:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkTabCreated status=SUCCESS method=PilivoTest.checkTabCreated()[pri:6, instance:tests.PilivoTest@6caf0677] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.PilivoTest.checkTabCreated()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.PilivoTest@6caf0677]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-09-03T17:09:55Z" finished-at="2018-09-03T17:09:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.PilivoTest.dragSMS()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="dragSMS()[pri:6, instance:tests.PilivoTest@6caf0677]" name="dragSMS" duration-ms="5361" started-at="2018-09-03T17:09:55Z" description="Drag Send SMS" finished-at="2018-09-03T17:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragSMS -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.PilivoTest@6caf0677]" name="tearDown" is-config="true" duration-ms="19" started-at="2018-09-03T17:10:00Z" finished-at="2018-09-03T17:10:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dragSMS status=SUCCESS method=PilivoTest.dragSMS()[pri:6, instance:tests.PilivoTest@6caf0677] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.PilivoTest.dragSMS()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="dragMail()[pri:7, instance:tests.PilivoTest@6caf0677]" name="dragMail" duration-ms="8614" started-at="2018-09-03T17:10:00Z" description="Drag Send email to panel" finished-at="2018-09-03T17:10:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragMail -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.PilivoTest@6caf0677]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-09-03T17:10:00Z" finished-at="2018-09-03T17:10:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.PilivoTest.dragMail()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.PilivoTest@6caf0677]" name="tearDown" is-config="true" duration-ms="19" started-at="2018-09-03T17:10:09Z" finished-at="2018-09-03T17:10:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dragMail status=SUCCESS method=PilivoTest.dragMail()[pri:7, instance:tests.PilivoTest@6caf0677] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.PilivoTest.dragMail()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.PilivoTest@6caf0677]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-09-03T17:10:09Z" finished-at="2018-09-03T17:10:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.PilivoTest.clickBasic()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="clickBasic()[pri:8, instance:tests.PilivoTest@6caf0677]" name="clickBasic" duration-ms="23128" started-at="2018-09-03T17:10:09Z" description="click on Basic" finished-at="2018-09-03T17:10:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickBasic -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.PilivoTest@6caf0677]" name="tearDown" is-config="true" duration-ms="18" started-at="2018-09-03T17:10:32Z" finished-at="2018-09-03T17:10:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickBasic status=SUCCESS method=PilivoTest.clickBasic()[pri:8, instance:tests.PilivoTest@6caf0677] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.PilivoTest.clickBasic()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.PilivoTest@6caf0677]" name="closeBrowser" is-config="true" duration-ms="93" started-at="2018-09-03T17:10:32Z" finished-at="2018-09-03T17:10:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.PilivoTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

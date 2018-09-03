@@ -1,0 +1,10 @@
+utils/InputFeeder.class
+PageObjects/ConnectorsComponent.class
+PageObjects/ExitAppComponent.class
+utils/BaseTest.class
+PageObjects/EmailComponentPage.class
+PageObjects/CreateAppComponent.class
+PageObjects/HomeComponent.class
+PageObjects/CreateNewPageComponent.class
+PageObjects/MessageComponent.class
+tests/PilivoTest.class
