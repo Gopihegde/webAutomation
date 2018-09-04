@@ -1,6 +1,7 @@
 package PageObjects;
 
 /* Page objects and Home page functionalities are implemented here.*/
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -16,13 +17,16 @@ public class HomeComponent {
         this.driver = driver;
         wait = new WebDriverWait(driver,30);
     }
+    private final static Logger logger = Logger.getLogger(HomeComponent.class);
 
     @FindBy(id = "link-create")
     public WebElement Home;
 
    //Clicks on create app page.
     public void clickOnCreateApp() {
-          wait.until(ExpectedConditions.visibilityOf(Home));
+         try {
+             wait.until(ExpectedConditions.visibilityOf(Home));
+         } catch (Exception e){ logger.info(e.toString());}
           Home.click();
 
     }

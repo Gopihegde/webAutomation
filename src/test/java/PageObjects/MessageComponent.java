@@ -2,6 +2,7 @@ package PageObjects;
 
 import Selenium.CommonMethods;
 import Selenium.Constants;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -32,10 +33,14 @@ public class MessageComponent implements InputFeeder {
     @FindBy(css = "textarea[name='phone_constant']")
     public WebElement enterNumber;
 
+    private final static Logger logger = Logger.getLogger(MessageComponent.class);
+
     @Override
     public void inputProvider() {
-        enterNumber.sendKeys(Constants.NUMBER);
-        enterMessage.sendKeys(Constants.TEXT);
+        try {
+            enterNumber.sendKeys(Constants.NUMBER);
+            enterMessage.sendKeys(Constants.TEXT);
+        } catch (Exception e) { logger.info(e.toString());}
     }
 
     public void clickMessaging(){
@@ -50,7 +55,7 @@ public class MessageComponent implements InputFeeder {
             WebElement element = driver.findElement(By.id("module-2"));
             CommonMethods.sleep(2000);
             CommonMethods.drandAndrDropByLocation(element,0,-50,driver,wait);
-        }catch (Exception e) { e.printStackTrace();}
+        }catch (Exception e) { logger.info(e.toString());}
 
     }
 }

@@ -1,6 +1,7 @@
 package PageObjects;
 
 import Selenium.CommonMethods;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -12,10 +13,13 @@ public class ConnectorsComponent {
     protected WebDriver driver;
     protected WebDriverWait wait;
 
+
     public ConnectorsComponent(WebDriver driver){
         this.driver = driver;
         wait = new WebDriverWait(driver,20);
     }
+
+   private final static Logger logger = Logger.getLogger(ConnectorsComponent.class);
    //Start to Send SMS connector
     @FindBy(xpath = "//div[@id='tabs-2']//div[contains(@id,'module')][2]//div[@class='mod-rail mod-north']//div")
         public WebElement dragEndToSMS;
@@ -49,20 +53,31 @@ public class ConnectorsComponent {
 
     public void startToSendMessageconnector() {
         wait.until(ExpectedConditions.visibilityOf(dragStartPointfromStart));
+        logger.info("Started Connecting " + "startToSendMessage" );
         CommonMethods.dragAndDrop(dragStartPointfromStart,dragEndToSMS,driver);
+        logger.info("Successfully Connected.");
         }
     public void smsToEmailConnector(){
+        logger.info("started connecting SMS to Email");
         CommonMethods.dragAndDrop(smsNotSent,emailIn,driver);
+        logger.info("Successfully Connected");
     }
-    public void smsToExitAppConnector(){
+    public void smsToExitAppConnector()
+    {
+        logger.info("started connecting SMS to ExitAPP");
         CommonMethods.dragAndDrop(smsSent,exitApp,driver);
+        logger.info("Successfully Connected");
     }
     public void emailToExitAppConnectorPort1(){
+        logger.info("emailto exit app");
         CommonMethods.dragAndDrop(emailSent,exitApptoEmailSent,driver);
+        logger.info("Successfully Connected");
     }
 
     public void emailToExitAppConnectorPort2(){
+        logger.info("Started Connecting emailToExitApp");
         CommonMethods.dragAndDrop(emailNotSent,exitApptoEmailNotSent,driver);
+        logger.info("Successfully Connected");
     }
 }
 

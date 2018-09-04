@@ -2,6 +2,7 @@ package PageObjects;
 
 /*  This module represents Exit feature from Basics Tab.*/
 import Selenium.CommonMethods;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -19,6 +20,7 @@ public class ExitAppComponent {
         this.driver = driver;
         wait = new WebDriverWait(driver,30);
     }
+    private final static Logger logger = Logger.getLogger(ExitAppComponent.class);
 
     @FindBy(xpath = "//*[@id=\"accordion\"]/div[1]/ul/li[1]/a/span")
     public WebElement hangUp;
@@ -35,14 +37,16 @@ public class ExitAppComponent {
     // Click on Basic tab for HANG UP option is here. Drag hang up option to console
     public void hangUpToConsole() {
         wait.until(ExpectedConditions.visibilityOf(hangUp));
-        hangUp.click();
+        try {
+            hangUp.click();
+        }catch (Exception e){logger.info(e.toString());}
     }
 
     public void clickOnBasic(){
         try{
             Thread.sleep(5000);
         } catch (Exception e){
-            e.printStackTrace();
+           logger.info(e.toString());
         }
         for (WebElement webElement:Menu) {
             if(webElement.getText().contains("Basic"))

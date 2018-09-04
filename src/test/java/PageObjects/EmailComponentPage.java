@@ -3,6 +3,7 @@ package PageObjects;
 /*  Source code for Email field and actions on email field. */
 import Selenium.CommonMethods;
 import Selenium.Constants;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -40,6 +41,7 @@ public class EmailComponentPage implements InputFeeder{
    @FindBy(css = "#module-2")
         public WebElement email1;
 
+    private final static Logger logger = Logger.getLogger(EmailComponentPage.class);
 
      //Fill the send Email panel.
      @Override
@@ -54,11 +56,12 @@ public class EmailComponentPage implements InputFeeder{
          wait.until(ExpectedConditions.visibilityOfAllElements(messageText));
          messageText.click();
          messageText.clear();
-         messageText.sendKeys(Constants.MAILBODY);
+         try {
+             messageText.sendKeys(Constants.MAILBODY);
+         }catch (Exception e) {logger.error("Element not visible" + e.toString());}
          }
          //Drags email to its right
       public void dragEmail(){
-          //WebElement email = driver.findElement(By.xpath("//*[@id=\"module-2\"]/div[1]/div[3]/div/div[2]/div[1]/div[1]"));
           WebElement email = driver.findElement(By.xpath("//*[@id=\"module-3\"]/div[1]/div[3]/div/div[2]/div[1]/div[1]"));
           wait.until(ExpectedConditions.visibilityOfAllElements(email));
           CommonMethods.sleep(5000);
