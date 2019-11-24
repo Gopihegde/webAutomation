@@ -1,61 +1,81 @@
 package utils;
-import Selenium.CommonMethods;
-import Selenium.Constants;
-import Selenium.driver.InitDriver;
-import com.relevantcodes.extentreports.ExtentReports;
-import com.relevantcodes.extentreports.ExtentTest;
-import com.relevantcodes.extentreports.LogStatus;
+import Framework.BrowserDriver;
+import PageObjects.*;
 import org.openqa.selenium.WebDriver;
-import org.testng.ITestResult;
 import org.testng.annotations.*;
-
-import java.io.IOException;
-import java.lang.reflect.Method;
+import org.testng.xml.XmlTest;
 
 public abstract class BaseTest {
-    InitDriver initDriver = new InitDriver("chrome");
-    protected ExtentReports extentReports;
-    protected ExtentTest extentTest;
 
-    public WebDriver getDriver(){
-        return initDriver.getDriver();
+    protected WebDriver driver;
+    protected FKHomePage homePage;
+    protected FKCartPage cartPage;
+    protected ListingPage listingPage;
+    protected AmazonSearchPage searchPage;
+    protected FKSearchPage fkSearchPage;
+
+    @Parameters( { "browser"} )
+    @BeforeTest( alwaysRun = true)
+    public void beforeTest(XmlTest test , String browser){
+
+        System.out.println( browser );
+        BrowserDriver browserDriver = new BrowserDriver(  browser);
+        this.driver = browserDriver.getDriver();
+        homePage = new FKHomePage( driver );
+        cartPage = new FKCartPage( driver );
+        listingPage = new ListingPage( driver );
+        searchPage = new AmazonSearchPage( driver );
+        fkSearchPage = new FKSearchPage(driver);
     }
 
-    @BeforeTest
-    public void setUp(){
-    }
-
-    @AfterTest
-    public void closeBrowser(){
-        getDriver().quit();
-    }
 
     @BeforeSuite
-    public void beforeSuite()
-    {
-         extentReports = new ExtentReports(Constants.REPORT_PATH + "/"+Constants.REPORT_NAME+"."+"html", true); //Provide Desired Report Directory Location and Name
+    public void beforeSuite(){
+
     }
 
-    @BeforeMethod()
-    public void beforeMethod(Method method)
-    {
-        extentTest = extentReports.startTest( (this.getClass().getSimpleName() +" :: "+  method.getName()),method.getName()); //Test Case Start Here
-        extentTest.assignAuthor("Gopalkrishna"); //Test Script Author Name
+
+
+
+    @BeforeClass
+    public void beforeClass(){
+
+
     }
+
+
+    @BeforeMethod
+    public void beforeMethod(){
+
+
+    }
+
 
     @AfterMethod
-    public void tearDown(ITestResult result, Method method) throws IOException
-    {
+    public void afterMethod(){
 
-        if(result.getStatus() == ITestResult.FAILURE)
-        {
-            String methodName = method.getName();
-            CommonMethods.getScreenShot(getDriver(),methodName);
 
-        }
-        else extentTest.log(LogStatus.PASS,"test passed");
-
-        extentReports.endTest(extentTest);
-        extentReports.flush();
     }
+
+
+    @AfterTest
+    public void afterTest(){
+        if( driver != null ){
+
+            driver.quit();
+        }
+
+    }
+
+    @AfterClass
+    public void afterClass(){
+
+    }
+
+    @AfterSuite
+    public void afterSuite(){
+
+
+    }
+
 }

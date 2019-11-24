@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Flipkart Search" parallel="false">
+    <listeners>
+        <listener class-name="utils.TestListener"/>
+    </listeners>
+    <test  verbose="1" name="Test_Chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="tests.OrderTest" />
+        </classes>
+    </test>
+
+</suite>

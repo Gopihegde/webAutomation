@@ -1,0 +1,7 @@
+{
+  "browserName": "chrome",
+  "maxInstances": 5,
+  "seleniumProtocol": "WebDriver"
+}
+
+
