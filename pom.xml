@@ -95,6 +95,9 @@
                     <parallel>classes</parallel>
                     <threadCount>40</threadCount>
                     <redirectTestOutputToFile>false</redirectTestOutputToFile>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>src/test/java/TestXmls/FlipKartSearch.xml</suiteXmlFile>
+                    </suiteXmlFiles>
                 </configuration>
             </plugin>
         </plugins>
