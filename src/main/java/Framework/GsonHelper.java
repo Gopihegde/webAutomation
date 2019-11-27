@@ -14,7 +14,6 @@ import com.google.gson.stream.JsonReader;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.io.Reader;
 import java.lang.reflect.Type;
 import java.util.Map;
 
@@ -76,7 +75,7 @@ public class GsonHelper {
      protected JsonReader readJson(String file) {
         JsonReader reader = null;
         try {
-            reader = new JsonReader(new FileReader( Constants.RESOURCE_PATH + File.separator + file ));
+            reader = new JsonReader(new FileReader( FrameworkConstants.RESOURCE_PATH + File.separator + file ));
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }

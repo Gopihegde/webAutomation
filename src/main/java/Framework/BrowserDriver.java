@@ -1,5 +1,6 @@
 package Framework;
 
+import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -11,7 +12,7 @@ import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 
-public class BrowserDriver {
+public class BrowserDriver implements CommonDriver<WebDriver> {
     private WebDriver driver;
     String browserName;
     GsonHelper helper = GsonHelper.getHelper();
@@ -22,6 +23,7 @@ public class BrowserDriver {
     }
 
 
+    @Override
     public WebDriver getDriver() {
         driver = null;
 
@@ -66,6 +68,5 @@ public class BrowserDriver {
         return capabilities;
 
     }
-
 
 }

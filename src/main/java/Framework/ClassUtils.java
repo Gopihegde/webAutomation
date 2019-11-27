@@ -70,7 +70,7 @@ public class ClassUtils {
         int second = gregorianCalendar.get(Calendar.SECOND);
         File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         try {
-            FileUtils.copyFile(scrFile, new File((Constants.SCREENSHOT_PATH + "/" + methodName)));
+            FileUtils.copyFile(scrFile, new File((FrameworkConstants.SCREENSHOT_PATH + "/" + methodName)));
         } catch (IOException e) {
             e.printStackTrace();
         }

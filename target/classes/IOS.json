@@ -1,0 +1,18 @@
+
+
+{
+  "autoLaunch": "true",
+  "autoGrantPermissions": true,
+  "clearSystemFiles": true,
+  "fullReset": false,
+  "noReset": true,
+  "automationName": "XCUITest",
+  "platformName": "iOS",
+  "autoAcceptAlerts": true,
+  "wdaStartupRetries": "4",
+  "iosInstallPause":"2000",
+  "wdaStartupRetryInterval": "20000",
+  "waitForQuiescence": false,
+  "connectHardwareKeyboard": false,
+  "platformVersion": "12.2"
+}

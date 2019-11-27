@@ -1,0 +1,17 @@
+{
+
+  "autoLaunch": true,
+  "platformName": "android",
+  "skipServerInstallation": "false",
+  "uiautomator2ServerLaunchTimeout": "60000",
+  "androidScreenshotPath": "target/screenshots",
+  "autoGrantPermissions": true,
+  "automationName": "UiAutomator2",
+  "clearSystemFiles": true,
+  "fullReset": false,
+  "noReset": true,
+  "adbExecTimeout" : "40000",
+  "--relaxed-security" : true,
+  "noSign": true
+
+}

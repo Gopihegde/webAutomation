@@ -39,7 +39,7 @@ public class OrderTest extends BaseTest {
         homePage.login( false );
         double fkPrice = Integer.parseInt(fkSearchPage.searchForItemAndGetPrice( item  ).substring( 1 ).replace( "," , "" ));
         System.out.println( fkPrice );
-       // ((JavascriptExecutor) driver).executeScript( "window.open('"+"https://www.amazon.in/"+"','_blank');" );
+       // ((JavascriptExecutor) commonDriver).executeScript( "window.open('"+"https://www.amazon.in/"+"','_blank');" );
         driver.get("https://www.amazon.in/"  );
         double amazonPrice = Integer.parseInt(searchPage.searchAndGetPrice( item ).substring(1 ).replace( ",","" ));
         if( fkPrice > amazonPrice ){
