@@ -11,6 +11,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Map;
+import java.util.Optional;
 import java.util.Properties;
 
 public class MobileDriver implements CommonDriver<AppiumDriver>  {
@@ -54,7 +55,7 @@ public class MobileDriver implements CommonDriver<AppiumDriver>  {
 
         this.appPackage = packageName;
         this.app = app;
-        this.appActivity = Preconditions.checkNotNull(appActivity);
+        this.appActivity = app;
         this.platformName = platformName;
 
 
@@ -99,17 +100,16 @@ public class MobileDriver implements CommonDriver<AppiumDriver>  {
      */
     DesiredCapabilities buildConfig(String platform) {
         this.capabilities = new DesiredCapabilities(capabilities(platform));
-        capabilities.setCapability(FrameworkConstants.DEVICE_ID, deviceID = deviceID != null ? this.deviceID : ""); // Specific to RobusTest
-        //capabilities.setCapability(FrameworkConstants.UDID, deviceID = deviceID != null ? this.deviceID : ""); // It will be used in local mapping of udid.
+        capabilities.setCapability(FrameworkConstants.UDID, deviceID = deviceID != null ? this.deviceID : ""); // It will be used in local mapping of udid.
 
         switch (platform) {
 
             case "android":
                 capabilities.setCapability(FrameworkConstants.APP_PACKAGE, this.appPackage);
                 capabilities.setCapability(FrameworkConstants.DEVICE_NAME, deviceName = deviceName != null ? this.deviceName : FrameworkConstants.DEFAULT_DEVICENAME);
-                // capabilities.setCapability(FrameworkConstants.SYSTEM_PORT, systemPort = systemPort != null ? this.systemPort : FrameworkConstants.DEFAULT_SYSTEM_PORT);
+                capabilities.setCapability(FrameworkConstants.SYSTEM_PORT, systemPort = systemPort != null ? this.systemPort : FrameworkConstants.DEFAULT_SYSTEM_PORT);
                 capabilities.setCapability(FrameworkConstants.APP_ACTIVITY, this.appActivity);
-                //capabilities.setCapability(FrameworkConstants.APP, app);
+                capabilities.setCapability(FrameworkConstants.APP, app);
                 capabilities.setCapability(FrameworkConstants.CHROME_DRIVER_PORT, chromeDriverPort = chromeDriverPort != null ? this.chromeDriverPort : FrameworkConstants.DEFAULT_CHROMEDRIVER_PORT);
                 break;
             case "ios":
@@ -117,6 +117,8 @@ public class MobileDriver implements CommonDriver<AppiumDriver>  {
                 capabilities.setCapability(FrameworkConstants.BUNDLE_ID, this.appPackage);
                 capabilities.setCapability(FrameworkConstants.WDPP, webkitDebugProxyPort = webkitDebugProxyPort != null ? this.webkitDebugProxyPort : FrameworkConstants.DEFAULT_WEBKITLOCALPROXY);
                 capabilities.setCapability(FrameworkConstants.WDA_LOCAL_PORT, wdaLocalPort = wdaLocalPort != null ? this.wdaLocalPort : FrameworkConstants.DEFAULT_WDALOCALPORT);
+                capabilities.setCapability(FrameworkConstants.DEVICE_NAME, this.deviceName);
+                capabilities.setCapability(FrameworkConstants.APP, app);
                 break;
         }
 
