@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Launch Test" parallel="false">
-   <!-- <test  name="Test_Android">
+<suite name="Launch Test" parallel="tests" thread-count="2">
+    <test  name="Test_Android">
         <parameter name="appPackage" value="geekboy.placefinder"/>
         <parameter name="appActivity" value="geekboy.placefinder.mvvm.search.SearchActivity"/>
         <parameter name="deviceID" value="DRGID18100102189"/>
         <parameter name="deviceName" value="Nokia"/>
         <parameter name="port" value="4723"/>
         <parameter name="platform" value="android"/>
-        <parameter name="app" value="/src/main/resources/app-debug.apk"/>
+        <parameter name="app" value=""/>
+
         <classes>
-            <class name="tests.LaunchTest" />
+            <class name="tests.AndroidLaunch" />
         </classes>
-    </test> -->
+    </test>
 
 
     <test  name="Test_iOS">

@@ -12,6 +12,6 @@
   "noReset": true,
   "adbExecTimeout" : "40000",
   "--relaxed-security" : true,
-  "noSign": true
-
+  "noSign": true,
+  "enforceAppInstall" : true
 }

@@ -109,7 +109,7 @@ public class MobileDriver implements CommonDriver<AppiumDriver>  {
                 capabilities.setCapability(FrameworkConstants.DEVICE_NAME, deviceName = deviceName != null ? this.deviceName : FrameworkConstants.DEFAULT_DEVICENAME);
                 capabilities.setCapability(FrameworkConstants.SYSTEM_PORT, systemPort = systemPort != null ? this.systemPort : FrameworkConstants.DEFAULT_SYSTEM_PORT);
                 capabilities.setCapability(FrameworkConstants.APP_ACTIVITY, this.appActivity);
-                capabilities.setCapability(FrameworkConstants.APP, app);
+                //capabilities.setCapability(FrameworkConstants.APP, app);
                 capabilities.setCapability(FrameworkConstants.CHROME_DRIVER_PORT, chromeDriverPort = chromeDriverPort != null ? this.chromeDriverPort : FrameworkConstants.DEFAULT_CHROMEDRIVER_PORT);
                 break;
             case "ios":

@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a11f2af-2d5b-4ed2-a713-4d4724602f5a" name="Default" comment="Updated with Log4J.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/PageObjects/IosHomeFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/IOSLaunch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Framework/MobileDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Framework/MobileDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Android.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Android.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestXmls/launchtests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestXmls/launchtests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LaunchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LaunchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Framework/MobileDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Framework/MobileDriver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/LaunchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/LaunchTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LaunchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/AndroidLaunch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/LaunchTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,17 +22,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Framework/MobileDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="120" column="72" selection-start-line="120" selection-start-column="72" selection-end-line="120" selection-end-column="72" />
+            <state relative-caret-position="105">
+              <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/IosHomeFinder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+            <state relative-caret-position="465">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,10 +41,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/LaunchTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Framework/FrameworkConstants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="208">
+              <caret line="35" column="59" lean-forward="true" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/AndroidLaunch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/LaunchPageFinderApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,7 +77,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/IOSLaunch.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="24" column="53" lean-forward="true" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+              <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,11 +85,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestXmls/launchtests.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
+            <state relative-caret-position="150">
+              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/Android.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -141,14 +169,14 @@
         <option value="$PROJECT_DIR$/src/test/java/TestXmls/FlipKartSearch.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Framework/FrameworkConstants.java" />
         <option value="$PROJECT_DIR$/src/main/resources/IOS.json" />
-        <option value="$PROJECT_DIR$/src/main/resources/Android.json" />
         <option value="$PROJECT_DIR$/src/test/java/PageObjects/LaunchPageFinderApp.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/tests/LaunchTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Framework/MobileDriver.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/IOSLaunch.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestXmls/launchtests.xml" />
         <option value="$PROJECT_DIR$/src/test/java/PageObjects/IosHomeFinder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Framework/MobileDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Android.json" />
+        <option value="$PROJECT_DIR$/src/test/java/TestXmls/launchtests.xml" />
       </list>
     </option>
   </component>
@@ -170,7 +198,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="803" />
@@ -219,6 +247,13 @@
               <item name="webAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="webAutomation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -261,7 +296,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574878257580" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574926265234" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -421,34 +456,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_gopal_hegde_Documents_webAutomation_src_test_java_TestXmls_launchtests_xml - 2019.11.27 at 21h 31m 10s.xml">
+    <history-entry file="_Users_gopal_hegde_Documents_webAutomation_src_test_java_TestXmls_launchtests_xml - 2019.11.27 at 23h 51m 19s.xml">
       <configuration name="/Users/gopal.hegde/Documents/webAutomation/src/test/java/TestXmls/launchtests.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_gopal_hegde_Documents_webAutomation_src_test_java_TestXmls_launchtests_xml - 2019.11.27 at 21h 38m 40s.xml">
+    <history-entry file="_Users_gopal_hegde_Documents_webAutomation_src_test_java_TestXmls_launchtests_xml - 2019.11.27 at 23h 54m 38s.xml">
       <configuration name="/Users/gopal.hegde/Documents/webAutomation/src/test/java/TestXmls/launchtests.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_gopal_hegde_Documents_webAutomation_src_test_java_TestXmls_launchtests_xml - 2019.11.27 at 21h 40m 29s.xml">
+    <history-entry file="_Users_gopal_hegde_Documents_webAutomation_src_test_java_TestXmls_launchtests_xml - 2019.11.27 at 23h 55m 51s.xml">
       <configuration name="/Users/gopal.hegde/Documents/webAutomation/src/test/java/TestXmls/launchtests.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_gopal_hegde_Documents_webAutomation_src_test_java_TestXmls_launchtests_xml - 2019.11.27 at 22h 12m 04s.xml">
+    <history-entry file="_Users_gopal_hegde_Documents_webAutomation_src_test_java_TestXmls_launchtests_xml - 2019.11.27 at 23h 56m 07s.xml">
       <configuration name="/Users/gopal.hegde/Documents/webAutomation/src/test/java/TestXmls/launchtests.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_gopal_hegde_Documents_webAutomation_src_test_java_TestXmls_launchtests_xml - 2019.11.27 at 22h 12m 15s.xml">
+    <history-entry file="_Users_gopal_hegde_Documents_webAutomation_src_test_java_TestXmls_launchtests_xml - 2019.11.28 at 00h 01m 41s.xml">
       <configuration name="/Users/gopal.hegde/Documents/webAutomation/src/test/java/TestXmls/launchtests.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_gopal_hegde_Documents_webAutomation_src_test_java_TestXmls_launchtests_xml - 2019.11.27 at 22h 12m 45s.xml">
+    <history-entry file="_Users_gopal_hegde_Documents_webAutomation_src_test_java_TestXmls_launchtests_xml - 2019.11.28 at 00h 02m 20s.xml">
       <configuration name="/Users/gopal.hegde/Documents/webAutomation/src/test/java/TestXmls/launchtests.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_gopal_hegde_Documents_webAutomation_src_test_java_TestXmls_launchtests_xml - 2019.11.27 at 22h 13m 30s.xml">
+    <history-entry file="_Users_gopal_hegde_Documents_webAutomation_src_test_java_TestXmls_launchtests_xml - 2019.11.28 at 00h 05m 24s.xml">
       <configuration name="/Users/gopal.hegde/Documents/webAutomation/src/test/java/TestXmls/launchtests.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_gopal_hegde_Documents_webAutomation_src_test_java_TestXmls_launchtests_xml - 2019.11.27 at 22h 13m 46s.xml">
+    <history-entry file="_Users_gopal_hegde_Documents_webAutomation_src_test_java_TestXmls_launchtests_xml - 2019.11.28 at 12h 56m 54s.xml">
       <configuration name="/Users/gopal.hegde/Documents/webAutomation/src/test/java/TestXmls/launchtests.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_gopal_hegde_Documents_webAutomation_src_test_java_TestXmls_launchtests_xml - 2019.11.27 at 22h 14m 33s.xml">
+    <history-entry file="_Users_gopal_hegde_Documents_webAutomation_src_test_java_TestXmls_launchtests_xml - 2019.11.28 at 12h 58m 47s.xml">
       <configuration name="/Users/gopal.hegde/Documents/webAutomation/src/test/java/TestXmls/launchtests.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_gopal_hegde_Documents_webAutomation_src_test_java_TestXmls_launchtests_xml - 2019.11.27 at 23h 17m 18s.xml">
+    <history-entry file="_Users_gopal_hegde_Documents_webAutomation_src_test_java_TestXmls_launchtests_xml - 2019.11.28 at 13h 00m 15s.xml">
       <configuration name="/Users/gopal.hegde/Documents/webAutomation/src/test/java/TestXmls/launchtests.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -456,7 +491,7 @@
     <frame x="0" y="23" width="1440" height="803" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -465,8 +500,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Resources Explorer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32770744" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3769339" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32630098" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3769339" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3994528" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -716,13 +751,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Android.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/StaleElementReferenceException.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -734,13 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1395">
           <caret line="94" column="40" selection-start-line="94" selection-start-column="40" selection-end-line="94" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Framework/FrameworkConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -758,16 +779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/LaunchPageFinderApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="31" column="3" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="40" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/Optional.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -775,47 +786,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/LaunchTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/IOSLaunch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="24" column="53" lean-forward="true" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+          <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Framework/MobileDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="120" column="72" selection-start-line="120" selection-start-column="72" selection-end-line="120" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestXmls/launchtests.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/IosHomeFinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        <state relative-caret-position="465">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/LaunchPageFinderApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/AndroidLaunch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Framework/FrameworkConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="35" column="59" lean-forward="true" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Framework/MobileDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Android.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestXmls/launchtests.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
         </state>
       </provider>
     </entry>
