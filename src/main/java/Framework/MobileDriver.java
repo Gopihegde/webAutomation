@@ -55,7 +55,7 @@ public class MobileDriver implements CommonDriver<AppiumDriver>  {
 
         this.appPackage = packageName;
         this.app = app;
-        this.appActivity = app;
+        this.appActivity = appActivity;
         this.platformName = platformName;
 
 
