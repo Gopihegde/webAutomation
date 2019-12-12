@@ -6,7 +6,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 
 public interface CommonDriver< T  extends WebDriver> {
 
-    public T getDriver();
+     T getDriver();
 
 
 

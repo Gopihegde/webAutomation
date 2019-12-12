@@ -2,8 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a11f2af-2d5b-4ed2-a713-4d4724602f5a" name="Default" comment="Updated with Log4J.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Framework/SwipeDirection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PageObjects/EventsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PageObjects/LandingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PageObjects/SearchPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestXmls/YahooNews.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/OneFCAndroid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/YahooNews.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Framework/ClassUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Framework/ClassUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Framework/CommonDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Framework/CommonDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Framework/LaunchManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Framework/LaunchManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Framework/MobileBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Framework/MobileBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Framework/MobileDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Framework/MobileDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Android.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Android.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestXmls/launchtests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestXmls/launchtests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Android.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Android.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Framework/ClassUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Framework/ClassUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Framework/MobileBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Framework/MobileBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Framework/MobileDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Framework/MobileDriver.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,86 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Framework/MobileDriver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="57" column="38" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Framework/GsonHelper.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestXmls/YahooNews.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-680">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/IosHomeFinder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Framework/FrameworkConstants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="59" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/AndroidLaunch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/LaunchPageFinderApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/IOSLaunch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestXmls/launchtests.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+            <state relative-caret-position="345">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -102,8 +44,93 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/Android.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+            <state relative-caret-position="165">
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/OneFCAndroid.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="90" selection-start-line="90" selection-end-line="90" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-10229">
+              <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/Collection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="127" column="14" lean-forward="true" selection-start-line="127" selection-start-column="14" selection-end-line="127" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/Set.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3171">
+              <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Framework/LaunchManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+              <folding>
+                <element signature="e#331#332#0" expanded="true" />
+                <element signature="e#372#373#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/LandingPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="12">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/EventsPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Framework/ClassUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="150" column="50" selection-start-line="150" selection-start-column="50" selection-end-line="150" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -114,6 +141,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -132,13 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Selenium/LocalConfigs/TypedProperties.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Selenium/driver/WebDriverConfig.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/driver.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/Selenium/SeleniumFunctions.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/test_config.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Selenium/LocalConfigs/TestProperties.java" />
         <option value="$PROJECT_DIR$/src/main/java/Selenium/driver/DriverConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/Selenium/Pages.java" />
         <option value="$PROJECT_DIR$/src/test/java/PageObjects/CreateFlows.java" />
@@ -168,9 +189,6 @@
         <option value="$PROJECT_DIR$/src/test/java/PageObjects/HomeComponent.java" />
         <option value="$PROJECT_DIR$/src/test/java/PageObjects/ConnectorsComponent.java" />
         <option value="$PROJECT_DIR$/src/test/java/PageObjects/CreateNewPageComponent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Framework/MobileBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Framework/LaunchManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Framework/CommonDriver.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestXmls/FlipKartSearch.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Framework/FrameworkConstants.java" />
         <option value="$PROJECT_DIR$/src/main/resources/IOS.json" />
@@ -179,9 +197,20 @@
         <option value="$PROJECT_DIR$/src/test/java/tests/LaunchTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/IOSLaunch.java" />
         <option value="$PROJECT_DIR$/src/test/java/PageObjects/IosHomeFinder.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/Android.json" />
+        <option value="$PROJECT_DIR$/src/main/java/Framework/MobileBuilder.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestXmls/launchtests.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/YahooNews.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Framework/SwipeDirection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Framework/CommonDriver.java" />
         <option value="$PROJECT_DIR$/src/main/java/Framework/MobileDriver.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PageObjects/EventsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PageObjects/SearchPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Framework/ClassUtils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PageObjects/LandingPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Framework/LaunchManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestXmls/YahooNews.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/Android.json" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/OneFCAndroid.java" />
       </list>
     </option>
   </component>
@@ -203,10 +232,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="803" />
+    <option name="width" value="1680" />
+    <option name="height" value="956" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -214,8 +243,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -297,11 +324,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574927518743" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576076236600" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -328,7 +357,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./Users/gopal.hegde/Documents/webAutomation/src/test/java/TestXmls/launchtests.xml">
+  <component name="RunManager" selected="TestNG./Users/gopal.hegde/Documents/webAutomation/src/test/java/TestXmls/YahooNews.xml">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -348,7 +377,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ModuleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="OneFCAndroid" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Test" />
       <extension name="coverage">
         <pattern>
@@ -357,7 +386,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ModuleTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.OneFCAndroid" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -366,7 +395,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PilivoTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="YahooNews" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Test" />
       <extension name="coverage">
         <pattern>
@@ -374,18 +403,10 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.PilivoTest" />
-      <option name="GROUP_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="tests.YahooNews" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
       <method v="2">
@@ -395,6 +416,17 @@
     <configuration name="/Users/gopal.hegde/Documents/webAutomation/src/test/java/TestXmls/FlipKartSearch.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Test" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/TestXmls/FlipKartSearch.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/gopal.hegde/Documents/webAutomation/src/test/java/TestXmls/YahooNews.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Test" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/TestXmls/YahooNews.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -433,17 +465,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.ModuleTest" />
-      <item itemvalue="TestNG.PilivoTest" />
       <item itemvalue="TestNG./Users/gopal.hegde/Documents/webAutomation/src/test/java/TestXmls/FlipKartSearch.xml" />
       <item itemvalue="TestNG./Users/gopal.hegde/Documents/webAutomation/src/test/java/TestXmls/launchtests.xml" />
+      <item itemvalue="TestNG.YahooNews" />
+      <item itemvalue="TestNG./Users/gopal.hegde/Documents/webAutomation/src/test/java/TestXmls/YahooNews.xml" />
+      <item itemvalue="TestNG.OneFCAndroid" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/gopal.hegde/Documents/webAutomation/src/test/java/TestXmls/YahooNews.xml" />
+        <item itemvalue="TestNG.OneFCAndroid" />
+        <item itemvalue="TestNG.YahooNews" />
         <item itemvalue="TestNG./Users/gopal.hegde/Documents/webAutomation/src/test/java/TestXmls/launchtests.xml" />
         <item itemvalue="TestNG./Users/gopal.hegde/Documents/webAutomation/src/test/java/TestXmls/FlipKartSearch.xml" />
-        <item itemvalue="TestNG.PilivoTest" />
-        <item itemvalue="TestNG.ModuleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -461,42 +495,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_gopal_hegde_Documents_webAutomation_src_test_java_TestXmls_launchtests_xml - 2019.11.27 at 23h 54m 38s.xml">
-      <configuration name="/Users/gopal.hegde/Documents/webAutomation/src/test/java/TestXmls/launchtests.xml" configurationId="TestNG" />
+    <history-entry file="OneFCAndroid - 2019.12.11 at 15h 48m 07s.xml">
+      <configuration name="OneFCAndroid" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_gopal_hegde_Documents_webAutomation_src_test_java_TestXmls_launchtests_xml - 2019.11.27 at 23h 55m 51s.xml">
-      <configuration name="/Users/gopal.hegde/Documents/webAutomation/src/test/java/TestXmls/launchtests.xml" configurationId="TestNG" />
+    <history-entry file="OneFCAndroid - 2019.12.11 at 15h 49m 33s.xml">
+      <configuration name="OneFCAndroid" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_gopal_hegde_Documents_webAutomation_src_test_java_TestXmls_launchtests_xml - 2019.11.27 at 23h 56m 07s.xml">
-      <configuration name="/Users/gopal.hegde/Documents/webAutomation/src/test/java/TestXmls/launchtests.xml" configurationId="TestNG" />
+    <history-entry file="_Users_gopal_hegde_Documents_webAutomation_src_test_java_TestXmls_YahooNews_xml - 2019.12.11 at 15h 50m 45s.xml">
+      <configuration name="/Users/gopal.hegde/Documents/webAutomation/src/test/java/TestXmls/YahooNews.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_gopal_hegde_Documents_webAutomation_src_test_java_TestXmls_launchtests_xml - 2019.11.28 at 00h 01m 41s.xml">
-      <configuration name="/Users/gopal.hegde/Documents/webAutomation/src/test/java/TestXmls/launchtests.xml" configurationId="TestNG" />
+    <history-entry file="_Users_gopal_hegde_Documents_webAutomation_src_test_java_TestXmls_YahooNews_xml - 2019.12.11 at 15h 51m 41s.xml">
+      <configuration name="/Users/gopal.hegde/Documents/webAutomation/src/test/java/TestXmls/YahooNews.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_gopal_hegde_Documents_webAutomation_src_test_java_TestXmls_launchtests_xml - 2019.11.28 at 00h 02m 20s.xml">
-      <configuration name="/Users/gopal.hegde/Documents/webAutomation/src/test/java/TestXmls/launchtests.xml" configurationId="TestNG" />
+    <history-entry file="_Users_gopal_hegde_Documents_webAutomation_src_test_java_TestXmls_YahooNews_xml - 2019.12.11 at 15h 55m 18s.xml">
+      <configuration name="/Users/gopal.hegde/Documents/webAutomation/src/test/java/TestXmls/YahooNews.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_gopal_hegde_Documents_webAutomation_src_test_java_TestXmls_launchtests_xml - 2019.11.28 at 00h 05m 24s.xml">
-      <configuration name="/Users/gopal.hegde/Documents/webAutomation/src/test/java/TestXmls/launchtests.xml" configurationId="TestNG" />
+    <history-entry file="_Users_gopal_hegde_Documents_webAutomation_src_test_java_TestXmls_YahooNews_xml - 2019.12.11 at 16h 23m 56s.xml">
+      <configuration name="/Users/gopal.hegde/Documents/webAutomation/src/test/java/TestXmls/YahooNews.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_gopal_hegde_Documents_webAutomation_src_test_java_TestXmls_launchtests_xml - 2019.11.28 at 12h 56m 54s.xml">
-      <configuration name="/Users/gopal.hegde/Documents/webAutomation/src/test/java/TestXmls/launchtests.xml" configurationId="TestNG" />
+    <history-entry file="_Users_gopal_hegde_Documents_webAutomation_src_test_java_TestXmls_YahooNews_xml - 2019.12.11 at 16h 28m 08s.xml">
+      <configuration name="/Users/gopal.hegde/Documents/webAutomation/src/test/java/TestXmls/YahooNews.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_gopal_hegde_Documents_webAutomation_src_test_java_TestXmls_launchtests_xml - 2019.11.28 at 12h 58m 47s.xml">
-      <configuration name="/Users/gopal.hegde/Documents/webAutomation/src/test/java/TestXmls/launchtests.xml" configurationId="TestNG" />
+    <history-entry file="_Users_gopal_hegde_Documents_webAutomation_src_test_java_TestXmls_YahooNews_xml - 2019.12.11 at 16h 31m 12s.xml">
+      <configuration name="/Users/gopal.hegde/Documents/webAutomation/src/test/java/TestXmls/YahooNews.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_gopal_hegde_Documents_webAutomation_src_test_java_TestXmls_launchtests_xml - 2019.11.28 at 13h 00m 15s.xml">
-      <configuration name="/Users/gopal.hegde/Documents/webAutomation/src/test/java/TestXmls/launchtests.xml" configurationId="TestNG" />
+    <history-entry file="_Users_gopal_hegde_Documents_webAutomation_src_test_java_TestXmls_YahooNews_xml - 2019.12.11 at 16h 40m 59s.xml">
+      <configuration name="/Users/gopal.hegde/Documents/webAutomation/src/test/java/TestXmls/YahooNews.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_gopal_hegde_Documents_webAutomation_src_test_java_TestXmls_launchtests_xml - 2019.11.28 at 13h 01m 05s.xml">
-      <configuration name="/Users/gopal.hegde/Documents/webAutomation/src/test/java/TestXmls/launchtests.xml" configurationId="TestNG" />
+    <history-entry file="_Users_gopal_hegde_Documents_webAutomation_src_test_java_TestXmls_YahooNews_xml - 2019.12.11 at 16h 54m 41s.xml">
+      <configuration name="/Users/gopal.hegde/Documents/webAutomation/src/test/java/TestXmls/YahooNews.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="803" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="956" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23076923" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -506,15 +540,15 @@
       <window_info id="Resources Explorer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32630098" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3769339" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3994528" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3761574" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4525463" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32911393" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32911393" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32831737" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32770744" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -610,110 +644,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/Invoker.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/MethodInvocationHelper.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar!/org/openqa/selenium/support/FindBy.class" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/ModulePage.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/ModuleTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Selenium/driver/InitDriver.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Selenium/CommonMethods.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Selenium/Constants.java" />
-    <entry file="file://$PROJECT_DIR$/profiles.xml" />
-    <entry file="file://$PROJECT_DIR$/Test.iml" />
-    <entry file="file://$PROJECT_DIR$/target/testng.html" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/PilivoTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/utils/InputFeeder.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/CreateAppComponent.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/EmailComponentPage.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/MessageComponent.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/HomeComponent.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/ConnectorsComponent.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/ExitAppComponent.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/CreateNewPageComponent.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/FKCartPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/appium/java-client/6.1.0/java-client-6.1.0.jar!/io/appium/java_client/pagefactory/iOSXCUITFindBy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utils/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/annotations/BeforeTest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Framework/LaunchManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/OrderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/appium/java-client/6.1.0/java-client-6.1.0.jar!/io/appium/java_client/AppiumDriver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Framework/BrowserDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/WebDriver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar!/org/openqa/selenium/remote/RemoteWebDriver.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -721,27 +651,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Framework/CommonDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/TestNG.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1320">
           <caret line="331" selection-start-line="331" selection-end-line="331" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestXmls/FlipKartSearch.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -759,13 +672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Framework/MobileBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1395">
-          <caret line="94" column="40" selection-start-line="94" selection-start-column="40" selection-end-line="94" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -790,13 +696,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/IosHomeFinder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Framework/GsonHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -804,26 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="35" column="59" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/AndroidLaunch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/LaunchPageFinderApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -837,31 +720,308 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Android.json">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestXmls/YahooNews/xml.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Framework/MobileBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        <state relative-caret-position="315">
+          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/OrderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utils/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" selection-start-line="16" selection-end-line="78" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/PriceVariationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestXmls/FlipKartSearch.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Framework/BrowserDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/AndroidLaunch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="50" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestXmls/launchtests.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        <state relative-caret-position="420">
+          <caret line="28" column="18" lean-forward="true" selection-end-line="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Framework/GsonHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/YahooNews.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-680">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="338">
+          <caret line="40" column="115" selection-start-line="40" selection-start-column="115" selection-end-line="40" selection-end-column="115" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/ThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="158" column="13" selection-start-line="158" selection-start-column="13" selection-end-line="158" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Framework/SwipeDirection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/appium/java-client/7.0.0/java-client-7.0.0.jar!/io/appium/java_client/touch/offset/AbstractOptionCombinedWithPosition.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/appium/java-client/7.0.0/java-client-7.0.0.jar!/io/appium/java_client/touch/offset/ElementOption.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/appium/java-client/7.0.0/java-client-7.0.0.jar!/io/appium/java_client/TouchAction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="89" column="13" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/appium/java-client/7.0.0/java-client-7.0.0.jar!/io/appium/java_client/android/AndroidDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Framework/CommonDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/appium/java-client/7.0.0/java-client-7.0.0.jar!/io/appium/java_client/AppiumDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Framework/MobileDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="57" column="38" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
+        <state relative-caret-position="60">
+          <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/IosHomeFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/appium/java-client/7.0.0/java-client-7.0.0.jar!/io/appium/java_client/ios/IOSElement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/appium/java-client/7.0.0/java-client-7.0.0.jar!/io/appium/java_client/MobileElement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/appium/java-client/7.0.0/java-client-7.0.0.jar!/io/appium/java_client/FindsByFluentSelector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/appium/java-client/7.0.0/java-client-7.0.0.jar!/io/appium/java_client/android/AndroidElement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="71" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/appium/java-client/7.0.0/java-client-7.0.0.jar!/io/appium/java_client/FindsByAndroidUIAutomator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/LaunchPageFinderApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/SearchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/appium/java-client/7.0.0/java-client-7.0.0.jar!/io/appium/java_client/pagefactory/AndroidFindAll.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/FKHomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/appium/java-client/7.0.0/java-client-7.0.0.jar!/io/appium/java_client/pagefactory/AndroidFindBys.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Framework/ClassUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="150" column="50" selection-start-line="150" selection-start-column="50" selection-end-line="150" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/EventsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestXmls/YahooNews.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Android.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Framework/LaunchManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/LandingPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="127" column="14" lean-forward="true" selection-start-line="127" selection-start-column="14" selection-end-line="127" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/Set.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3171">
+          <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10229">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/OneFCAndroid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

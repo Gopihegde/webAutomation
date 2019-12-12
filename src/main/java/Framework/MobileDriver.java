@@ -3,7 +3,9 @@ package Framework;
 import com.google.common.base.Preconditions;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.ios.IOSDriver;
+import io.appium.java_client.ios.IOSElement;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -13,6 +15,7 @@ import java.net.URL;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
 public class MobileDriver implements CommonDriver<AppiumDriver>  {
     private Map<String, Object> baseCapabilities;
@@ -67,11 +70,12 @@ public class MobileDriver implements CommonDriver<AppiumDriver>  {
 
             case "android":
               //  startServer( FrameworkConstants.BASE_IP , Integer.valueOf(port) , capabilities );
-                this.driver = new AndroidDriver(new URL(FrameworkConstants.BASE_URL + port + FrameworkConstants.WD_PATH), capabilities);
+                this.driver = new AndroidDriver<AndroidElement>(new URL(FrameworkConstants.BASE_URL + port + FrameworkConstants.WD_PATH), capabilities);
+                driver.manage().timeouts().implicitlyWait( 20 , TimeUnit.SECONDS);
                 break;
             case "ios":
                 //startServer( FrameworkConstants.BASE_IP , Integer.valueOf(port) , capabilities );
-                this.driver = new IOSDriver(new URL(FrameworkConstants.BASE_URL + port + FrameworkConstants.WD_PATH), capabilities);
+                this.driver = new IOSDriver<IOSElement>(new URL(FrameworkConstants.BASE_URL + port + FrameworkConstants.WD_PATH), capabilities);
         }
 
     }

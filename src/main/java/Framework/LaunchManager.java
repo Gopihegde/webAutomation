@@ -12,7 +12,7 @@ public class LaunchManager {
     }
 
 
-    public static AppiumDriver getAppiumDriver() {
-        return appiumDriver.get();
+    public static <T extends AppiumDriver > T getAppiumDriver() {
+        return (T) appiumDriver.get();
     }
 }

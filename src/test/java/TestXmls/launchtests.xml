@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Launch Test" parallel="tests" thread-count="2">
     <test  name="Test_Android">
-        <parameter name="appPackage" value="geekboy.placefinder"/>
+        <parameter name="appPackage" value=""/>
         <parameter name="appActivity" value="geekboy.placefinder.mvvm.search.SearchActivity"/>
         <parameter name="deviceID" value="DRGID18100102189"/>
         <parameter name="deviceName" value="Nokia"/>
@@ -17,7 +17,7 @@
 
 
     <test  name="Test_iOS">
-        <parameter name="appPackage" value="com.hellogroup.hellopai"/>
+        <parameter name="appPackage" value=""/>
         <parameter name="deviceID" value="C38370C5-0B88-4703-8D03-4C9E589CB4A3"/>
         <parameter name="deviceName" value="iPhone 8"/>
         <parameter name="port" value="4723"/>

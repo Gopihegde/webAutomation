@@ -1,4 +1,9 @@
 package Framework;
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileElement;
+import io.appium.java_client.TouchAction;
+import io.appium.java_client.touch.WaitOptions;
+import io.appium.java_client.touch.offset.PointOption;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
@@ -31,15 +36,15 @@ public class ClassUtils {
         return false;
     }
 
-    public static  WebElement WaitForElement(WebElement element, WebDriver driver , long timeout) {
+    public  static  <T extends WebElement>  T  WaitForElement(T t, WebDriver driver , long timeout) {
         WebDriverWait wait = new WebDriverWait(driver, timeout);
         WebElement ele = null;
         try {
-            ele = wait.until(ExpectedConditions.visibilityOf(element));
+            ele = wait.until(ExpectedConditions.visibilityOf(t));
         } catch (Exception e) {
             //exception
         }
-        return ele;
+        return (T) ele;
     }
 
     public static void dragAndDrop(WebElement source, WebElement target, WebDriver driver) {
@@ -90,6 +95,61 @@ public class ClassUtils {
     }
 
 
+    public static void scroll(SwipeDirection direction, AppiumDriver driver, double steps) {
+        int startX;
+        int endX ;
+        int startY;
+        int endY;
+        while (steps > 0) {
+            try {
+                Dimension size = driver.manage().window().getSize();
+                startY = (int) (size.height * 0.80);
+                endY = (int) (size.height * 0.20);
+                startX = (int) (size.width * 0.50);
+
+                System.out.printf( "%s x is %s y is" , startY , endY );
+
+
+                switch (direction) {
+                    case UP:
+                        new TouchAction(driver).press(PointOption.point(startX, startY)).waitAction(WaitOptions.waitOptions(Duration.ofMillis(1000)))
+                                .moveTo(PointOption.point(startX, endY)).release().perform();
+                        steps--;
+                        break;
+                    case DOWN:
+                        new TouchAction(driver).press(PointOption.point(startX, endY)).waitAction(WaitOptions.waitOptions(Duration.ofMillis(1000)))
+                                .moveTo(PointOption.point(startX, startY)).release().perform();
+                        steps--;
+                        break;
+                    case LEFT:
+                        startY = (int) (size.height / 2);
+                        startX = (int) (size.width * 0.05);
+                        endX = (int) (size.width * 0.90);
+                        new TouchAction(driver).press(PointOption.point(startX, startY)).waitAction(WaitOptions.waitOptions(Duration.ofMillis(250)))
+                                .moveTo(PointOption.point(endX, startY)).release().perform();
+                        steps--;
+                    case RIGHT:
+                        startY = (int) (size.height / 2);
+                        startX = (int) (size.width * 0.90);
+                        endX = (int) (size.width * 0.05);
+                        new TouchAction(driver).press(PointOption.point(startX, startY)).waitAction(WaitOptions.waitOptions(Duration.ofMillis(250)))
+                                .moveTo(PointOption.point(endX, startY)).release().perform();
+                        steps--;
+                    default:
+
+                }
+            } catch (Exception e) {
+
+            }
+        }
+
+    }
+
+
+    public static <T extends WebDriver> WebDriverWait getWait( T driver , long time ) {
+
+        return new WebDriverWait( driver , time );
+    }
 
 
 }

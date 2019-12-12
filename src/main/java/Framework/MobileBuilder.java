@@ -10,7 +10,7 @@ public class MobileBuilder {
     private String systemPort;
     private String appActivity;
     private String appPackage;
-    private String app;
+    private static String app;
     private String chromeDriverPort;
     private String wdaLocalPort;
     private String webkitDebugProxyPort;
@@ -18,6 +18,7 @@ public class MobileBuilder {
     private String platformVersion;
     private String platformName;
     private String port;
+
 
     public MobileBuilder(String appActivity, String appPackage , String app , String platformName ) {
 
@@ -92,7 +93,7 @@ public class MobileBuilder {
 
 
     public MobileDriver build(){
-        MobileDriver mobileDriver = new MobileDriver( this.appActivity , this.appPackage , this.app , this.platformName);
+        MobileDriver mobileDriver = new     MobileDriver( this.appActivity , this.appPackage , this.app , this.platformName);
         mobileDriver.deviceName = this.deviceName;
         mobileDriver.webkitDebugProxyPort = this.webkitDebugProxyPort ;
         mobileDriver.systemPort = this.systemPort;
