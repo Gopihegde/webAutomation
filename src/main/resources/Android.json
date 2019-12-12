@@ -9,9 +9,9 @@
   "automationName": "UiAutomator2",
   "clearSystemFiles": true,
   "fullReset": false,
-  "noReset": true,
+  "noReset": false,
   "adbExecTimeout" : "40000",
   "--relaxed-security" : true,
   "noSign": true,
-  "enforceAppInstall" : true
+  "enforceAppInstall" : false
 }

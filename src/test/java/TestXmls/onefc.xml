@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Launch Test" parallel="tests" thread-count="2">
+    <test  name="Test_Android">
+        <parameter name="appPackage" value="com.onefc.android.app"/>
+        <parameter name="appActivity" value="com.onechampionship.MainActivity"/>
+        <parameter name="deviceID" value="DRGID18100102189"/>
+        <parameter name="deviceName" value="Nokia"/>
+        <parameter name="port" value="4723"/>
+        <parameter name="platform" value="android"/>
+        <parameter name="app" value="/Users/gopal.hegde/Downloads/onefc.apk"/>
+        <parameter name="name" value="Angela lee"/>
+
+        <classes>
+
+            <class name="tests.OneFCAndroid" />
+        </classes>
+    </test>
+
+
+
+</suite>
+
